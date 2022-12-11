@@ -94,11 +94,6 @@ const HomeScreen = ({navigation}) => {
               onPress={() => navigation.navigate('RegisterScreen')}>
               <Text style={styles.submitText}>Register</Text>
             </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.submitButton}
-              onPress={() => navigation.navigate('Dashboard')}>
-              <Text style={styles.submitText}>auto</Text>
-            </TouchableOpacity>
           </View>
         </View>
       </View>
